@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### 2. 最简单的用法
 ```bash
-python jupdf.py input_dir output_dir
+python main.py <input_dir> <output_dir>
 ```
 它会在输出目录中生成你想要的 PDF 或 HTML（如果 PDF 实在搞不定）。
 
