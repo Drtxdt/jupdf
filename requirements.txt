@@ -1,0 +1,6 @@
+nbconvert
+pandas
+matplotlib
+lxml
+tqdm
+pillow
