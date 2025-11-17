@@ -642,7 +642,7 @@ class NotebookConverter:
     def convert(self, notebook_path: Path, output_dir: Path,
                preprocess: bool = True, verbose: bool = False) -> ConversionResult:
         """转换单个笔记本"""
-        
+        print(' ')        
         logging.info(f"{Colors.BOLD}转换: {notebook_path.name}{Colors.RESET}")
         
         # 预处理阶段
